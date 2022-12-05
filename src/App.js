@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { Container } from "@nextui-org/react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Header />
+			<Container
+				as="main"
+				css={{
+					position: "relative",
+					minWidth: "100%",
+					minHeight: "100vh",
+					px: 0,
+					ox: "hidden",
+				}}
+			>
+				<Hero />
+			</Container>
+		</div>
+	);
 }
 
 export default App;
