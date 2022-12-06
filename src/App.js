@@ -1,7 +1,10 @@
+import React from "react";
 import "./App.scss";
 import { Container } from "@nextui-org/react";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Home from "./routes/Home";
+import Iterative from "./routes/Iterative";
 
 function App() {
 	return (
@@ -14,10 +17,14 @@ function App() {
 					minWidth: "100%",
 					minHeight: "100vh",
 					px: 0,
+					pb: "$20",
 					ox: "hidden",
 				}}
 			>
-				<Hero />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/iterative" element={<Iterative />} />
+				</Routes>
 			</Container>
 		</div>
 	);

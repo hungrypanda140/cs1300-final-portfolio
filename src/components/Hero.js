@@ -41,7 +41,6 @@ function Hero(props) {
 					<stop offset="0" stop-color="white" stop-opacity="0" />
 					<stop offset="1" stop-color="white" stop-opacity="1" />
 				</linearGradient>
-
 				<mask id="fade" maskContentUnits="objectBoundingBox">
 					<rect width="1" height="1" fill="url(#fadeGrad)" />
 				</mask>
