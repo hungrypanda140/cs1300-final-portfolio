@@ -8,8 +8,8 @@ const projects = [
 		subtitle:
 			"An interactive hi-fi prototype for Hokali, a YCombinator-backed startup creating a sports lessons marketplace.",
 		gradient: {
-			start: "$green800",
-			stop: "$green600",
+			start: "$green700",
+			stop: "$green500",
 		},
 		image: "iterative.png",
 		organization: "CS 1300: UI/UX",
@@ -55,19 +55,6 @@ const projects = [
 		time: "Spring 2022",
 		link: "/nmdw",
 	},
-	{
-		name: "Cannoli",
-		subtitle:
-			"A Figma plugin that helps email designers translate hi-fi mockups into HTML and MJML email code.",
-		gradient: {
-			start: "$purple800",
-			stop: "$purple700",
-		},
-		image: "cannoli.png",
-		organization: "Scalero",
-		time: "Winter 2022",
-		link: "/iterative",
-	},
 ];
 
 function Projects(props) {
@@ -94,10 +81,8 @@ function Projects(props) {
 					<Card
 						isPressable
 						variant="bordered"
-						css={{ h: "400px", w: "70%" }}
-						onPress={() =>
-							navigate(project.link, { replace: true })
-						}
+						css={{ h: "400px", w: "65%" }}
+						onPress={() => navigate(project.link)}
 					>
 						<Card.Body css={{ pb: "$0" }}>
 							<Container
@@ -134,7 +119,7 @@ function Projects(props) {
 						<Card.Footer
 							css={{
 								justifyItems: "flex-start",
-								p: "$8 $8 $8 $8",
+								p: "$10 $12",
 							}}
 						>
 							<Row

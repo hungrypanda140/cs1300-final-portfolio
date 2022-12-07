@@ -5,6 +5,9 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./routes/Home";
 import Iterative from "./routes/Iterative";
+import Responsive from "./routes/Responsive";
+import Development from "./routes/Development";
+import NMDW from "./routes/NMDW";
 
 function App() {
 	return (
@@ -24,6 +27,9 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/iterative" element={<Iterative />} />
+					<Route path="/responsive" element={<Responsive />} />
+					<Route path="/development" element={<Development />} />
+					<Route path="/nmdw" element={<NMDW />} />
 				</Routes>
 			</Container>
 		</div>

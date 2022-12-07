@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { createTheme, NextUIProvider } from "@nextui-org/react";
 import "./index.css";
+import ScrollToTop from "./components/ScrollToTop";
 import App from "./App";
 
 const darkTheme = createTheme({
@@ -14,6 +15,7 @@ root.render(
 	<React.StrictMode>
 		<NextUIProvider theme={darkTheme}>
 			<BrowserRouter>
+				<ScrollToTop />
 				<App />
 			</BrowserRouter>
 		</NextUIProvider>

@@ -8,13 +8,13 @@ function Header(props) {
 	const navigate = useNavigate();
 
 	return (
-		<Navbar>
+		<Navbar css={{ px: "$10" }}>
 			<Navbar.Brand>
 				<Image
 					src="images/panda.png"
 					height={52}
 					css={{ cursor: "pointer" }}
-					onClick={() => navigate("/", { replace: true })}
+					onClick={() => navigate("/")}
 				/>
 			</Navbar.Brand>
 			<Navbar.Content enableCursorHighlight variant="highlight-rounded">
@@ -82,9 +82,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate("/iterative", { replace: true })
-								}
+								onClick={() => navigate("/iterative")}
 							/>
 							Iterative Design
 						</Dropdown.Item>
@@ -109,9 +107,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate("/responsive", { replace: true })
-								}
+								onClick={() => navigate("/responsive")}
 							/>
 							Responsive Redesign
 						</Dropdown.Item>
@@ -136,9 +132,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate("/development", { replace: true })
-								}
+								onClick={() => navigate("/development")}
 							/>
 							Development
 						</Dropdown.Item>
@@ -163,38 +157,9 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate("/nmdw", { replace: true })
-								}
+								onClick={() => navigate("/nmdw")}
 							/>
 							#NoMoreDataWeapons
-						</Dropdown.Item>
-						<Dropdown.Item
-							key="cannoli"
-							icon={
-								<MdMail
-									size={24}
-									color="var(--nextui-colors-purple700)"
-								/>
-							}
-							showFullDescription
-							description="Figma plugin that translates hi-fi mockups into HTML email code."
-						>
-							<Container
-								css={{
-									d: "flex",
-									left: 0,
-									top: 0,
-									w: "100%",
-									h: "100%",
-									p: 0,
-									position: "absolute",
-								}}
-								onClick={() =>
-									navigate("/cannoli", { replace: true })
-								}
-							/>
-							Cannoli
 						</Dropdown.Item>
 					</Dropdown.Menu>
 				</Dropdown>
