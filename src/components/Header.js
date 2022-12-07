@@ -82,11 +82,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate(
-										"/cs1300-final-portfolio/development"
-									)
-								}
+								onClick={() => navigate("/development")}
 							/>
 							Development
 						</Dropdown.Item>
@@ -111,11 +107,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate(
-										"/cs1300-final-portfolio/iterative"
-									)
-								}
+								onClick={() => navigate("/iterative")}
 							/>
 							Iterative Design
 						</Dropdown.Item>
@@ -140,11 +132,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate(
-										"/cs1300-final-portfolio/responsive"
-									)
-								}
+								onClick={() => navigate("/responsive")}
 							/>
 							Responsive Redesign
 						</Dropdown.Item>
@@ -169,9 +157,7 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() =>
-									navigate("/cs1300-final-portfolio/personas")
-								}
+								onClick={() => navigate("/personas")}
 							/>
 							Personas & Storyboarding
 						</Dropdown.Item>
