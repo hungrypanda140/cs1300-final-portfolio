@@ -1061,7 +1061,12 @@ function Iterative(props) {
 					Using our UserTesting results, we created a list of
 					additional interface changes we could make in the future:
 				</Text>
-				<ul style={{ listStyleType: "disclosure-closed" }}>
+				<ul
+					style={{
+						listStyleType: "disclosure-closed",
+						letterSpacing: "var(--nextui-letterSpacings-tighter)",
+					}}
+				>
 					<li>
 						Labeling all of our buttons and ensuring we have aria
 						labels for increased screen reader accessibility (the

@@ -113,7 +113,7 @@ function Responsive(props) {
 				<Grid.Container justify="center" css={{ marginBottom: "$6" }}>
 					<Grid xs={12}>
 						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h4>Original Website</Text>
+							<Text h3>Original Website</Text>
 							<Image
 								src="images/responsive/original-website.png"
 								alt="Lo-fi prototype"
@@ -432,14 +432,17 @@ function Responsive(props) {
 				>
 					Lo-fi Prototypes
 				</Text>
-				<Text p>
+				<Text p css={{ mb: "$4" }}>
 					Moving on to the redesigning portion, I started by creating
 					3 lo-fi prototypes (mobile, tablet, and desktop) using
 					Balsamiq to address the main usability problems. I annotated
 					the prototypes to{" "}
 					<Text
 						span
-						css={{ color: "$yellow700", fontWeight: "bolder" }}
+						css={{
+							color: "$yellow700",
+							fontWeight: "bolder",
+						}}
 					>
 						highlight design decisions that address the
 						aforementioned issues
