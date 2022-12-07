@@ -25,11 +25,23 @@ function App() {
 				}}
 			>
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/development" element={<Development />} />
-					<Route path="/iterative" element={<Iterative />} />
-					<Route path="/responsive" element={<Responsive />} />
-					<Route path="/personas" element={<Personas />} />
+					<Route path="/cs1300-final-portfolio" element={<Home />} />
+					<Route
+						path="/cs1300-final-portfolio/development"
+						element={<Development />}
+					/>
+					<Route
+						path="/cs1300-final-portfolio/iterative"
+						element={<Iterative />}
+					/>
+					<Route
+						path="/cs1300-final-portfolio/responsive"
+						element={<Responsive />}
+					/>
+					<Route
+						path="/cs1300-final-portfolio/personas"
+						element={<Personas />}
+					/>
 				</Routes>
 			</Container>
 		</div>

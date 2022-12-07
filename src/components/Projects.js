@@ -14,7 +14,7 @@ const projects = [
 		image: "development.png",
 		organization: "CS 1300: UI/UX",
 		time: "Fall 2022",
-		link: "/development",
+		link: "/cs1300-final-portfolio/development",
 	},
 	{
 		name: "Iterative Design",
@@ -27,7 +27,7 @@ const projects = [
 		image: "iterative.png",
 		organization: "CS 1300: UI/UX",
 		time: "Fall 2022",
-		link: "/iterative",
+		link: "/cs1300-final-portfolio/iterative",
 	},
 	{
 		name: "Responsive Redesign",
@@ -40,7 +40,7 @@ const projects = [
 		image: "responsive.png",
 		organization: "CS 1300: UI/UX",
 		time: "Fall 2022",
-		link: "/responsive",
+		link: "/cs1300-final-portfolio/responsive",
 	},
 	{
 		name: "Personas & Storyboarding",
@@ -53,7 +53,7 @@ const projects = [
 		image: "personas.png",
 		organization: "CS 1300: UI/UX",
 		time: "Fall 2022",
-		link: "/personas",
+		link: "/cs1300-final-portfolio/personas",
 	},
 ];
 

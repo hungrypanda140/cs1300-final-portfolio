@@ -18,7 +18,7 @@ function Header(props) {
 				/>
 			</Navbar.Brand>
 			<Navbar.Content enableCursorHighlight variant="highlight-rounded">
-				<Navbar.Link href="/">Home</Navbar.Link>
+				<Navbar.Link href="/cs1300-final-portfolio">Home</Navbar.Link>
 				<Dropdown isBordered>
 					<Navbar.Item>
 						<Dropdown.Button
@@ -82,7 +82,11 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() => navigate("/development")}
+								onClick={() =>
+									navigate(
+										"/cs1300-final-portfolio/development"
+									)
+								}
 							/>
 							Development
 						</Dropdown.Item>
@@ -107,7 +111,11 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() => navigate("/iterative")}
+								onClick={() =>
+									navigate(
+										"/cs1300-final-portfolio/iterative"
+									)
+								}
 							/>
 							Iterative Design
 						</Dropdown.Item>
@@ -132,7 +140,11 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() => navigate("/responsive")}
+								onClick={() =>
+									navigate(
+										"/cs1300-final-portfolio/responsive"
+									)
+								}
 							/>
 							Responsive Redesign
 						</Dropdown.Item>
@@ -157,7 +169,9 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() => navigate("/personas")}
+								onClick={() =>
+									navigate("/cs1300-final-portfolio/personas")
+								}
 							/>
 							Personas & Storyboarding
 						</Dropdown.Item>
