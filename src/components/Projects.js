@@ -4,9 +4,22 @@ import { Card, Container, Text, Row } from "@nextui-org/react";
 
 const projects = [
 	{
+		name: "Development",
+		subtitle:
+			"A React app aimed at streamlining the process of creating playlists from a set of songs that fit the user's criteria.",
+		gradient: {
+			start: "$red800",
+			stop: "$red600",
+		},
+		image: "development.png",
+		organization: "CS 1300: UI/UX",
+		time: "Fall 2022",
+		link: "/development",
+	},
+	{
 		name: "Iterative Design",
 		subtitle:
-			"An interactive hi-fi prototype for Hokali, a YCombinator-backed startup creating a sports lessons marketplace.",
+			"An interactive hi-fi prototype for Hokali, a YCombinator startup creating a sports lessons marketplace.",
 		gradient: {
 			start: "$green700",
 			stop: "$green500",
@@ -30,30 +43,17 @@ const projects = [
 		link: "/responsive",
 	},
 	{
-		name: "Development",
+		name: "Personas & Storyboarding",
 		subtitle:
-			"A React app aimed at streamlining the process of creating playlists from a set of songs that fit the user's criteria.",
-		gradient: {
-			start: "$red800",
-			stop: "$red600",
-		},
-		image: "development.png",
-		organization: "CS 1300: UI/UX",
-		time: "Fall 2022",
-		link: "/development",
-	},
-	{
-		name: "#NoMoreDataWeapons",
-		subtitle:
-			"A web app that empowers victims of data weapons to document and share their experiences through personal testimonies.",
+			"A user research study into Brown University's Crestron AirMedia presentation system.",
 		gradient: {
 			start: "$cyan800",
 			stop: "$cyan600",
 		},
-		image: "nmdw.png",
-		organization: "CS 1951I: CS for Social Change",
-		time: "Spring 2022",
-		link: "/nmdw",
+		image: "personas.png",
+		organization: "CS 1300: UI/UX",
+		time: "Fall 2022",
+		link: "/personas",
 	},
 ];
 
@@ -101,15 +101,22 @@ function Projects(props) {
 										jc: "center",
 									}}
 								>
-									<Text
-										h2
-										css={{
-											mb: 0,
-											textGradient: `${project.gradient.start} 25%, ${project.gradient.stop} 100%`,
-										}}
-									>
-										{project.name}
-									</Text>
+									<div>
+										{project.name.split(" ").map((word) => {
+											return (
+												<Text
+													h2
+													css={{
+														d: "inline",
+														my: 0,
+														textGradient: `${project.gradient.start} 25%, ${project.gradient.stop} 100%`,
+													}}
+												>
+													{word + " "}
+												</Text>
+											);
+										})}
+									</div>
 									<Text h4 color="$gray800">
 										{project.subtitle}
 									</Text>

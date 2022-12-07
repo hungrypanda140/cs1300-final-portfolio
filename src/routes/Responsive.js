@@ -1,13 +1,5 @@
 import React from "react";
-import {
-	Container,
-	Text,
-	Table,
-	Grid,
-	Card,
-	Col,
-	Image,
-} from "@nextui-org/react";
+import { Container, Text, Table, Grid, Col, Image } from "@nextui-org/react";
 
 // Context/Problem - What problem does this solve? Why should we care?
 // Research/Feedback - What precedent work is out there? Who is our audience? What do they want/think?
@@ -464,7 +456,7 @@ function Responsive(props) {
 						<iframe
 							title="Annotated Lo-fi Prototype"
 							style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-							width="900"
+							width="100%"
 							height="600"
 							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJU4G5Ks277HgriVgH6zlnF%2FNECBA-Hi-fi-Prototypes-%2526-Visual-Design-Guide%3Fnode-id%3D44%253A21%26t%3DhF8P78L7mfKHbac0-1"
 							allowFullScreen={true}
@@ -548,7 +540,7 @@ function Responsive(props) {
 						<iframe
 							title="Annotated Hi-fi Prototype"
 							style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-							width="900"
+							width="100%"
 							height="600"
 							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FJU4G5Ks277HgriVgH6zlnF%2FNECBA-Hi-fi-Prototypes-%2526-Visual-Design-Guide%3Fnode-id%3D0%253A1%26t%3DEpMBf9KiL5H605cF-1"
 							allowFullScreen={true}
@@ -593,7 +585,7 @@ function Responsive(props) {
 						<iframe
 							title="Redesigned Website"
 							style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
-							width="1000"
+							width="100%"
 							height="600"
 							src="https://hungrypanda140.github.io/cs1300-necba-redesign/"
 							allowFullScreen={true}

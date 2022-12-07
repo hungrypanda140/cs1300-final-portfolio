@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { IoMdBaseball, IoIosMusicalNotes, IoIosCube } from "react-icons/io";
-import { MdSportsTennis, MdMail } from "react-icons/md";
+import { IoMdBaseball, IoIosMusicalNotes } from "react-icons/io";
+import { MdSportsTennis, MdPerson } from "react-icons/md";
 import { Image, Navbar, Dropdown, Container } from "@nextui-org/react";
 
 function Header(props) {
@@ -62,6 +62,31 @@ function Header(props) {
 						}}
 					>
 						<Dropdown.Item
+							key="development"
+							icon={
+								<IoIosMusicalNotes
+									size={24}
+									color="var(--nextui-colors-red700)"
+								/>
+							}
+							showFullDescription
+							description="React app that streamlines playlist creation from songs that fit users' criteria."
+						>
+							<Container
+								css={{
+									d: "flex",
+									left: 0,
+									top: 0,
+									w: "100%",
+									h: "100%",
+									p: 0,
+									position: "absolute",
+								}}
+								onClick={() => navigate("/development")}
+							/>
+							Development
+						</Dropdown.Item>
+						<Dropdown.Item
 							key="iterative"
 							icon={
 								<MdSportsTennis
@@ -112,40 +137,15 @@ function Header(props) {
 							Responsive Redesign
 						</Dropdown.Item>
 						<Dropdown.Item
-							key="development"
+							key="personas"
 							icon={
-								<IoIosMusicalNotes
-									size={24}
-									color="var(--nextui-colors-red700)"
-								/>
-							}
-							showFullDescription
-							description="React app that streamlines playlist creation from songs that fit users' criteria."
-						>
-							<Container
-								css={{
-									d: "flex",
-									left: 0,
-									top: 0,
-									w: "100%",
-									h: "100%",
-									p: 0,
-									position: "absolute",
-								}}
-								onClick={() => navigate("/development")}
-							/>
-							Development
-						</Dropdown.Item>
-						<Dropdown.Item
-							key="nmdw"
-							icon={
-								<IoIosCube
+								<MdPerson
 									size={24}
 									color="var(--nextui-colors-cyan700)"
 								/>
 							}
 							showFullDescription
-							description="Web app that empowers survivors of data weapons to share their experiences."
+							description="User research study on the Crestron AirMedia presentation system."
 						>
 							<Container
 								css={{
@@ -157,9 +157,9 @@ function Header(props) {
 									p: 0,
 									position: "absolute",
 								}}
-								onClick={() => navigate("/nmdw")}
+								onClick={() => navigate("/personas")}
 							/>
-							#NoMoreDataWeapons
+							Personas & Storyboarding
 						</Dropdown.Item>
 					</Dropdown.Menu>
 				</Dropdown>

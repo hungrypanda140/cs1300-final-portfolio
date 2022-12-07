@@ -172,17 +172,16 @@ function Development(props) {
 									section. This was achieved through a
 									vertical divider line and the choice to give
 									the sections equal height to establish their
-									relative equality.
+									equality.
 								</li>
 								<li>
 									I broke the main section into the header
-									section, a distinct sorting and filtering
-									menu on the left, and the songs card grid.
-									The filtering menu was placed on the left so
-									users are immediately shown that they have
-									the ability to manipulate the songs card
-									grid due to their natural left-to-right
-									scanning order.
+									section, a sorting and filtering menu on the
+									left, and the songs card grid. The filtering
+									menu was placed on the left so users are
+									immediately shown that they have the ability
+									to manipulate the songs card grid due to our
+									natural left-to-right scanning order.
 								</li>
 							</ul>
 						</Col>
@@ -514,8 +513,8 @@ function Development(props) {
 								side of the screen. It displays the total number
 								of songs in the playlist, the total duration of
 								the playlist, as well as Spotify embeds for each
-								song that allow users to actually listen to the
-								songs in the browser.
+								song that allow users to listen to the songs in
+								the browser.
 							</Text>
 						</Col>
 					</Grid>
@@ -546,7 +545,7 @@ function Development(props) {
 						state
 					</Text>
 					. State is data that belongs to that component or one of its
-					children components. When a React component's state changes,{" "}
+					child components. When a React component's state changes,{" "}
 					<Text span css={{ color: "$red700", fontWeight: "bolder" }}>
 						the component is re-rendered
 					</Text>
@@ -554,8 +553,8 @@ function Development(props) {
 				</Text>
 				<Text p>
 					In this app, I use state to hold data for selected sort and
-					filter options and the playlist. The primary state changes
-					occur in <code>SortsAndFiltersSection.js</code> and{" "}
+					filter options as well as the playlist. The primary state
+					changes occur in <code>SortsAndFiltersSection.js</code> and{" "}
 					<code>SongItem.js</code>:
 				</Text>
 				<ul
@@ -571,7 +570,7 @@ function Development(props) {
 						handle the logic of updating the state values for which
 						sorts and filters are selected. There's some added
 						complexity due to the inclusion of "All" as a filter
-						category, which leads to some extra logic for unchecking
+						category, which leads to extra logic for unchecking
 						"All" when any other individual checkbox is selected and
 						unchecking all other checkboxes when "All" is clicked.
 					</li>
@@ -588,7 +587,7 @@ function Development(props) {
 					<Text span css={{ color: "$red700", fontWeight: "bolder" }}>
 						unidirectional data flow
 					</Text>{" "}
-					in which parent components pass data down to their children
+					in which parent components pass data down to their child
 					components via{" "}
 					<Text span css={{ color: "$red700", fontWeight: "bolder" }}>
 						props
@@ -631,7 +630,8 @@ function Development(props) {
 					<li>
 						<code>PlaylistSection.js</code> just takes in the
 						<code>playlist</code> JavaScript object to use for
-						rendering all of the songs via the song.embed property.
+						rendering all of the songs via the
+						<code>song.embed</code> property.
 					</li>
 				</ul>
 			</Container>

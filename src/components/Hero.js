@@ -11,7 +11,7 @@ function Hero(props) {
 				fw: "nowrap",
 				ai: "center",
 				jc: "space-between",
-				h: "calc(100vh - 76px)",
+				h: "calc(95vh - 76px)",
 				px: 0,
 				mw: "100%",
 			}}

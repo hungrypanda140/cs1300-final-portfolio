@@ -1,13 +1,5 @@
 import React from "react";
-import {
-	Card,
-	Container,
-	Col,
-	Grid,
-	Text,
-	Table,
-	Image,
-} from "@nextui-org/react";
+import { Container, Col, Grid, Text, Table, Image } from "@nextui-org/react";
 
 function Iterative(props) {
 	return (
@@ -35,9 +27,8 @@ function Iterative(props) {
 			</Text>
 			<Text h3 color="$accents9" css={{ textAlign: "center" }}>
 				An interactive hi-fi prototype for{" "}
-				<a href="https://www.hokali.co/">Hokali</a>, a
-				YCombinator-backed startup creating a sports lessons
-				marketplace.
+				<a href="https://www.hokali.co/">Hokali</a>, a YCombinator
+				startup creating a sports lessons marketplace.
 			</Text>
 			<Container css={{ mt: "$2" }}>
 				<Table
@@ -181,90 +172,138 @@ function Iterative(props) {
 					</Text>{" "}
 					to interact with coaches.
 				</Text>
-				<Grid.Container
-					gap={3}
-					justify="center"
-					css={{ marginBottom: "$2" }}
-				>
-					<Grid xs={8} sm={4.5}>
-						<Card variant="bordered">
-							<Card.Image
+				<Grid.Container justify="center" gap={3}>
+					<Grid xs={10} sm={6}>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$10",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Sketch 1: Coach Page, Search, Checkout
+							</Text>
+							<Image
 								src="images/iterative/sketch1.png"
-								objectFit="cover"
-								alt="Sketch 1"
-							/>
-							<Card.Footer
 								css={{
-									px: "$10",
-									ai: "center",
-									jc: "center",
+									border: "1px solid $accents5",
+									borderRadius: "10px",
+								}}
+							/>
+						</Col>
+					</Grid>
+					<Grid xs={10} sm={6}>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$10",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
 								}}
 							>
-								<Text h4 css={{ mb: 0 }}>
-									Sketch 1: Coach Page, Search, Checkout
-								</Text>
-							</Card.Footer>
-						</Card>
-					</Grid>
-					<Grid xs={8} sm={4.5}>
-						<Card variant="bordered">
-							<Card.Image
+								Sketch 2: Home, Search, Lessons
+							</Text>
+							<Image
 								src="images/iterative/sketch2.jpg"
-								objectFit="cover"
-								alt="Sketch 2"
-							/>
-							<Card.Footer
 								css={{
-									px: "$10",
-									ai: "center",
-									jc: "center",
+									border: "1px solid $accents5",
+									borderRadius: "10px",
+								}}
+							/>
+						</Col>
+					</Grid>
+					<Grid xs={10} sm={6}>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$10",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
 								}}
 							>
-								<Text h4 css={{ mb: 0 }}>
-									Sketch 2: Home, Search, Lessons
-								</Text>
-							</Card.Footer>
-						</Card>
-					</Grid>
-					<Grid xs={8} sm={4.5}>
-						<Card variant="bordered">
-							<Card.Image
+								Sketch 3: Login, Profile, Coach Page
+							</Text>
+							<Image
 								src="images/iterative/sketch3.png"
-								objectFit="cover"
-								alt="Sketch 1"
-							/>
-							<Card.Footer
 								css={{
-									px: "$10",
-									ai: "center",
-									jc: "center",
+									border: "1px solid $accents5",
+									borderRadius: "10px",
 								}}
-							>
-								<Text h4 css={{ mb: 0 }}>
-									Sketch 3: Home, Login, Profile, Coach Page
-								</Text>
-							</Card.Footer>
-						</Card>
+							/>
+						</Col>
 					</Grid>
-					<Grid xs={8} sm={4.5}>
-						<Card variant="bordered">
-							<Card.Image
-								src="images/iterative/sketch4.png"
-								objectFit="cover"
-								alt="Sketch 3"
-							/>
-							<Card.Footer
+					<Grid xs={10} sm={6}>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$10",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
 								css={{
-									px: "$10",
-									ai: "center",
-									jc: "center",
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
 								}}
 							>
-								<Text h4 css={{ mb: 0 }}>
-									Sketch 4: Coach Page, Search, Home
-								</Text>
-							</Card.Footer>
-						</Card>
+								Sketch 4: Coach Page, Search, Home
+							</Text>
+							<Image
+								src="images/iterative/sketch4.png"
+								css={{
+									border: "1px solid $accents5",
+									borderRadius: "10px",
+								}}
+							/>
+						</Col>
 					</Grid>
 				</Grid.Container>
 			</Container>
@@ -292,7 +331,12 @@ function Iterative(props) {
 					identified in the sketching stage. While creating these
 					combined wireframes, we made the following design decisions:
 				</Text>
-				<ul>
+				<ul
+					style={{
+						listStyleType: "disclosure-closed",
+						letterSpacing: "var(--nextui-letterSpacings-tighter)",
+					}}
+				>
 					<li>
 						<Text
 							span
@@ -367,8 +411,29 @@ function Iterative(props) {
 					css={{ marginBottom: "$2" }}
 				>
 					<Grid xs={5} sm={4}>
-						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h3>Home Screen</Text>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$8",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Home Screen
+							</Text>
 							<Image
 								src="images/iterative/home-wireframe.png"
 								alt="Home Wireframe"
@@ -376,8 +441,29 @@ function Iterative(props) {
 						</Col>
 					</Grid>
 					<Grid xs={5} sm={4}>
-						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h3>Lessons Screen</Text>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$8",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Lessons Screen
+							</Text>
 							<Image
 								src="images/iterative/lessons-wireframe.png"
 								alt="Lessons Wireframe"
@@ -385,8 +471,29 @@ function Iterative(props) {
 						</Col>
 					</Grid>
 					<Grid xs={5} sm={4}>
-						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h3>Search Screen</Text>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$8",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Search Screen
+							</Text>
 							<Image
 								src="images/iterative/search-wireframe.png"
 								alt="Search Wireframe"
@@ -394,17 +501,59 @@ function Iterative(props) {
 						</Col>
 					</Grid>
 					<Grid xs={5} sm={4}>
-						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h3>Profile Screen</Text>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$8",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Profile Screen
+							</Text>
 							<Image
 								src="images/iterative/profile-wireframe.png"
 								alt="Profile Wireframe"
 							/>
 						</Col>
 					</Grid>
-					<Grid xs={5} sm={4}>
-						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
-							<Text h3>Inbox Screen</Text>
+					<Grid xs={6} sm={4}>
+						<Col
+							css={{
+								d: "flex",
+								fd: "column",
+								rowGap: "$2",
+								p: "$8",
+								borderRadius: "10px",
+								backgroundColor: "$gray100",
+								border: "1px solid $accents5",
+							}}
+						>
+							<Text
+								h3
+								css={{
+									color: "$green600",
+									fontWeight: "bolder",
+									alignSelf: "center",
+									textAlign: "center",
+									mb: "$4",
+								}}
+							>
+								Inbox Screen
+							</Text>
 							<Image
 								src="images/iterative/inbox-wireframe.png"
 								alt="Inbox Wireframe"
@@ -566,17 +715,21 @@ function Iterative(props) {
 					prototype that resulted in the following interface (please
 					navigate around this embedded Figma prototype!)
 				</Text>
-				<iframe
-					title="Hi-fi Prototype"
-					style={{
-						alignSelf: "center",
-						marginBottom: "12px",
-					}}
-					width="800"
-					height="600"
-					src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhiTTaTbtbeJTLH4ZzPXIdz%2FHokali%3Fnode-id%3D2%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A3%26"
-					allowFullScreen={true}
-				/>
+				<Grid.Container justify="center" css={{ marginBottom: "$6" }}>
+					<Grid xs={12} justify="center">
+						<iframe
+							title="Hi-fi Prototype"
+							style={{
+								alignSelf: "center",
+								marginBottom: "12px",
+							}}
+							width="100%"
+							height={600}
+							src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhiTTaTbtbeJTLH4ZzPXIdz%2FHokali%3Fnode-id%3D2%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D2%253A3%26"
+							allowFullScreen={true}
+						/>
+					</Grid>
+				</Grid.Container>
 			</Container>
 			<Container
 				css={{
@@ -940,18 +1093,18 @@ function Iterative(props) {
 				</Text>
 				<Text p>
 					Through this iterative design process, our group learned to{" "}
-					<Text span css={{ color: "$green700" }}>
+					<Text span css={{ color: "$green600" }}>
 						be flexible and consider any and all feedback
 					</Text>{" "}
 					that we received from our studio crit and user testing. Some
 					of our best additions and changes to our interface were the
 					result of this feedback. We also honed our{" "}
-					<Text span css={{ color: "$green700" }}>
+					<Text span css={{ color: "$green600" }}>
 						collaborative design ideation skills
 					</Text>{" "}
 					since this was our main group design project for the class.
 					Finally, we learned how to{" "}
-					<Text span css={{ color: "$green700" }}>
+					<Text span css={{ color: "$green600" }}>
 						balance design aesthetics with functionality
 					</Text>{" "}
 					because we were constantly framing our decisions within

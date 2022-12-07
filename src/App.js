@@ -7,7 +7,7 @@ import Home from "./routes/Home";
 import Iterative from "./routes/Iterative";
 import Responsive from "./routes/Responsive";
 import Development from "./routes/Development";
-import NMDW from "./routes/NMDW";
+import Personas from "./routes/Personas";
 
 function App() {
 	return (
@@ -26,10 +26,10 @@ function App() {
 			>
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/development" element={<Development />} />
 					<Route path="/iterative" element={<Iterative />} />
 					<Route path="/responsive" element={<Responsive />} />
-					<Route path="/development" element={<Development />} />
-					<Route path="/nmdw" element={<NMDW />} />
+					<Route path="/personas" element={<Personas />} />
 				</Routes>
 			</Container>
 		</div>
