@@ -98,9 +98,15 @@ function Responsive(props) {
 				<Text p css={{ mb: "$6" }}>
 					I chose to redesign the New England Club Baseball
 					Association (NECBA){" "}
-					<a href="http://www.necba.com/">website</a> because I
-					frequently have to use it to view Brown club baseball's
-					schedule and standings in the league and{" "}
+					<a
+						href="http://www.necba.com/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						website
+					</a>{" "}
+					because I frequently have to use it to view Brown club
+					baseball's schedule and standings in the league and{" "}
 					<Text
 						span
 						css={{ color: "$yellow700", fontWeight: "bolder" }}
@@ -350,8 +356,14 @@ function Responsive(props) {
 				<Text p css={{ mb: "$6" }}>
 					The next step of the process was to investigate the site's
 					accessibility using the{" "}
-					<a href="https://wave.webaim.org/">WebAIM WAVE tool</a>.
-					Overall, I agreed with all of the WAVE tool’s findings. It
+					<a
+						href="https://wave.webaim.org/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						WebAIM WAVE tool
+					</a>
+					. Overall, I agreed with all of the WAVE tool’s findings. It
 					found the following:
 				</Text>
 				<ul
@@ -578,7 +590,11 @@ function Responsive(props) {
 						adjust your browser width to see the responsiveness!
 					</Text>{" "}
 					— but it can also be found at this{" "}
-					<a href="https://hungrypanda140.github.io/cs1300-necba-redesign/">
+					<a
+						href="https://hungrypanda140.github.io/cs1300-necba-redesign/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						link
 					</a>
 					.

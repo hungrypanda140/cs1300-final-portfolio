@@ -657,7 +657,11 @@ function Development(props) {
 					principles, component organization, state changes, and data
 					flow, was the following deployed React app. I've embedded
 					the website, but it should ideally be viewed at this{" "}
-					<a href="https://hungrypanda140.github.io/cs1300-development/">
+					<a
+						href="https://hungrypanda140.github.io/cs1300-development/"
+						target="_blank"
+						rel="noreferrer"
+					>
 						link
 					</a>
 					.
