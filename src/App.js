@@ -25,7 +25,7 @@ function App() {
 				}}
 			>
 				<Routes>
-					<Route path="" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/development" element={<Development />} />
 					<Route path="/iterative" element={<Iterative />} />
 					<Route path="/responsive" element={<Responsive />} />
