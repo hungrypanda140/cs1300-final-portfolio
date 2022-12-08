@@ -659,8 +659,6 @@ function Development(props) {
 					the website, but it should ideally be viewed at this{" "}
 					<a
 						href="https://hungrypanda140.github.io/cs1300-development/"
-						target="_blank"
-						rel="noreferrer"
 					>
 						link
 					</a>

@@ -100,8 +100,7 @@ function Responsive(props) {
 					Association (NECBA){" "}
 					<a
 						href="http://www.necba.com/"
-						target="_blank"
-						rel="noreferrer"
+
 					>
 						website
 					</a>{" "}
@@ -358,8 +357,6 @@ function Responsive(props) {
 					accessibility using the{" "}
 					<a
 						href="https://wave.webaim.org/"
-						target="_blank"
-						rel="noreferrer"
 					>
 						WebAIM WAVE tool
 					</a>
@@ -592,8 +589,6 @@ function Responsive(props) {
 					— but it can also be found at this{" "}
 					<a
 						href="https://hungrypanda140.github.io/cs1300-necba-redesign/"
-						target="_blank"
-						rel="noreferrer"
 					>
 						link
 					</a>

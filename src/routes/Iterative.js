@@ -27,14 +27,8 @@ function Iterative(props) {
 			</Text>
 			<Text h3 color="$accents9" css={{ textAlign: "center" }}>
 				An interactive hi-fi prototype for{" "}
-				<a
-					href="https://www.hokali.co/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Hokali
-				</a>
-				, a YCombinator startup creating a sports lessons marketplace.
+				<a href="https://www.hokali.co/">Hokali</a>, a YCombinator
+				startup creating a sports lessons marketplace.
 			</Text>
 			<Container css={{ mt: "$2" }}>
 				<Table
@@ -758,14 +752,8 @@ function Iterative(props) {
 				<Text p css={{ mb: "$6" }}>
 					The final step of our iterative design process was to engage
 					in more formal user testing with anonymous testers from{" "}
-					<a
-						href="https://www.usertesting.com/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						UserTesting.com
-					</a>
-					. To guide these testing sessions, we gave the users the
+					<a href="https://www.usertesting.com/">UserTesting.com</a>.
+					To guide these testing sessions, we gave the users the
 					following overall task and subtasks:
 				</Text>
 				<Grid.Container gap={3} justify="center">
