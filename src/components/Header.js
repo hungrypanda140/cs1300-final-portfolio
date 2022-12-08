@@ -18,7 +18,7 @@ function Header(props) {
 				/>
 			</Navbar.Brand>
 			<Navbar.Content enableCursorHighlight variant="highlight-rounded">
-				<Navbar.Link href="/">Home</Navbar.Link>
+				<Navbar.Link onClick={() => navigate("/")}>Home</Navbar.Link>
 				<Dropdown isBordered>
 					<Navbar.Item>
 						<Dropdown.Button
