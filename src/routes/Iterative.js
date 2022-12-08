@@ -198,7 +198,7 @@ function Iterative(props) {
 								Sketch 1: Coach Page, Search, Checkout
 							</Text>
 							<Image
-								src="images/iterative/sketch1.png"
+								src="/images/iterative/sketch1.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -231,7 +231,7 @@ function Iterative(props) {
 								Sketch 2: Home, Search, Lessons
 							</Text>
 							<Image
-								src="images/iterative/sketch2.jpg"
+								src="/images/iterative/sketch2.jpg"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -264,7 +264,7 @@ function Iterative(props) {
 								Sketch 3: Login, Profile, Coach Page
 							</Text>
 							<Image
-								src="images/iterative/sketch3.png"
+								src="/images/iterative/sketch3.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -297,7 +297,7 @@ function Iterative(props) {
 								Sketch 4: Coach Page, Search, Home
 							</Text>
 							<Image
-								src="images/iterative/sketch4.png"
+								src="/images/iterative/sketch4.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -435,7 +435,7 @@ function Iterative(props) {
 								Home Screen
 							</Text>
 							<Image
-								src="images/iterative/home-wireframe.png"
+								src="/images/iterative/home-wireframe.png"
 								alt="Home Wireframe"
 							/>
 						</Col>
@@ -465,7 +465,7 @@ function Iterative(props) {
 								Lessons Screen
 							</Text>
 							<Image
-								src="images/iterative/lessons-wireframe.png"
+								src="/images/iterative/lessons-wireframe.png"
 								alt="Lessons Wireframe"
 							/>
 						</Col>
@@ -495,7 +495,7 @@ function Iterative(props) {
 								Search Screen
 							</Text>
 							<Image
-								src="images/iterative/search-wireframe.png"
+								src="/images/iterative/search-wireframe.png"
 								alt="Search Wireframe"
 							/>
 						</Col>
@@ -525,7 +525,7 @@ function Iterative(props) {
 								Profile Screen
 							</Text>
 							<Image
-								src="images/iterative/profile-wireframe.png"
+								src="/images/iterative/profile-wireframe.png"
 								alt="Profile Wireframe"
 							/>
 						</Col>
@@ -555,7 +555,7 @@ function Iterative(props) {
 								Inbox Screen
 							</Text>
 							<Image
-								src="images/iterative/inbox-wireframe.png"
+								src="/images/iterative/inbox-wireframe.png"
 								alt="Inbox Wireframe"
 							/>
 						</Col>
@@ -954,7 +954,7 @@ function Iterative(props) {
 								35 | Female | $100,000-$124,999 | United Kingdom
 							</Text>
 							<video
-								src="images/iterative/user1.mp4"
+								src="/images/iterative/user1.mp4"
 								width="100%"
 								height="250"
 								controls
@@ -987,7 +987,7 @@ function Iterative(props) {
 								36 | Male | $60,000-$79,999 | United States
 							</Text>
 							<video
-								src="images/iterative/user2.mp4"
+								src="/images/iterative/user2.mp4"
 								width="100%"
 								height="250"
 								controls
@@ -1020,7 +1020,7 @@ function Iterative(props) {
 								34 | Female | $175,000-$199,999 | United States
 							</Text>
 							<video
-								src="images/iterative/user3.mp4"
+								src="/images/iterative/user3.mp4"
 								width="100%"
 								height="250"
 								controls

@@ -91,7 +91,7 @@ function Projects(props) {
 								<Card.Image
 									width="100%"
 									height="100%"
-									src={`images/${project.image}`}
+									src={`/images/${project.image}`}
 									objectFit="contain"
 								/>
 								<Container
