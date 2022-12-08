@@ -14,11 +14,11 @@ function Header(props) {
 					src="images/panda.png"
 					height={52}
 					css={{ cursor: "pointer" }}
-					onClick={() => navigate("/cs1300-final-portfolio/")}
+					onClick={() => navigate("/")}
 				/>
 			</Navbar.Brand>
 			<Navbar.Content enableCursorHighlight variant="highlight-rounded">
-				<Navbar.Link href="/cs1300-final-portfolio">Home</Navbar.Link>
+				<Navbar.Link href="/">Home</Navbar.Link>
 				<Dropdown isBordered>
 					<Navbar.Item>
 						<Dropdown.Button
