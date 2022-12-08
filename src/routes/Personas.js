@@ -190,7 +190,7 @@ function Personas(props) {
 								Presentation Display
 							</Text>
 							<Image
-								src="/images/personas/tv_sketch.jpg"
+								src="images/personas/tv_sketch.jpg"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -229,7 +229,7 @@ function Personas(props) {
 								Wall-mounted Tablet
 							</Text>
 							<Image
-								src="/images/personas/tablet_sketch.jpg"
+								src="images/personas/tablet_sketch.jpg"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -268,7 +268,7 @@ function Personas(props) {
 								AirMedia Desktop & Mobile App
 							</Text>
 							<Image
-								src="/images/personas/airmedia_sketch.jpg"
+								src="images/personas/airmedia_sketch.jpg"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -589,7 +589,7 @@ function Personas(props) {
 							}}
 						>
 							<Image
-								src="/images/personas/cyrus.png"
+								src="images/personas/cyrus.png"
 								css={{
 									borderRadius: "10px",
 								}}
@@ -604,7 +604,7 @@ function Personas(props) {
 							}}
 						>
 							<Image
-								src="/images/personas/priscilla.png"
+								src="images/personas/priscilla.png"
 								css={{
 									borderRadius: "10px",
 								}}
@@ -643,7 +643,7 @@ function Personas(props) {
 				<Grid.Container justify="center" css={{ marginBottom: "$6" }}>
 					<Grid xs={12} justify="center">
 						<Image
-							src="/images/personas/storyboard.png"
+							src="images/personas/storyboard.png"
 							css={{
 								borderRadius: "10px",
 							}}

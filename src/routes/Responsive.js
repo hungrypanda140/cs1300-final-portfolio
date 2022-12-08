@@ -115,7 +115,7 @@ function Responsive(props) {
 						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
 							<Text h3>Original Website</Text>
 							<Image
-								src="/images/responsive/original-website.png"
+								src="images/responsive/original-website.png"
 								alt="Lo-fi prototype"
 							/>
 						</Col>
@@ -189,10 +189,10 @@ function Responsive(props) {
 								}}
 							>
 								<li>
-									Some of the team logo /images have
+									Some of the team logo images have
 									backgrounds behind them while others are
 									cut-out PNGs. This muddles the mappings
-									between these /images and any potential
+									between these images and any potential
 									functions they serve.
 								</li>
 								<li>
@@ -408,9 +408,9 @@ function Responsive(props) {
 						>
 							31 "empty alternative text errors"
 						</Text>{" "}
-						for almost all of the /images on the screen. This poses
+						for almost all of the images on the screen. This poses
 						obvious issues for users with screen readers who can’t
-						see the /images well and need them to be described out
+						see the images well and need them to be described out
 						loud.
 					</li>
 				</ul>
@@ -500,7 +500,7 @@ function Responsive(props) {
 					<Grid xs={8}>
 						<Col css={{ d: "flex", fd: "column", ai: "center" }}>
 							<Image
-								src="/images/responsive/design_guide.png"
+								src="images/responsive/design_guide.png"
 								alt="Design Guide"
 							/>
 						</Col>

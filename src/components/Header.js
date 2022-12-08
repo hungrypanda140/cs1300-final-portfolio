@@ -12,7 +12,7 @@ function Header(props) {
 			<Navbar.Brand>
 				<Image
 					// CITATION: Image was found here, https://dribbble.com/shots/10716439-panda
-					src="/images/panda.png"
+					src="images/panda.png"
 					height={52}
 					css={{ cursor: "pointer" }}
 					onClick={() => navigate("/")}

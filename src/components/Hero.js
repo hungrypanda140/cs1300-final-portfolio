@@ -75,7 +75,7 @@ function Hero(props) {
 				</Text>
 				<Spacer x={1} />
 				{/* CITATION: Image was found here, https://dribbble.com/shots/10716439-panda */}
-				<Image src="/images/panda.png" width={500} />
+				<Image src="images/panda.png" width={500} />
 			</Container>
 		</Container>
 	);

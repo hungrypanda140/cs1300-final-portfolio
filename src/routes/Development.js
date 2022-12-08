@@ -331,7 +331,7 @@ function Development(props) {
 								</code>
 							</Text>
 							<Image
-								src="/images/development/app.png"
+								src="images/development/app.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -375,7 +375,7 @@ function Development(props) {
 								</code>
 							</Text>
 							<Image
-								src="/images/development/header.png"
+								src="images/development/header.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -417,7 +417,7 @@ function Development(props) {
 							</Text>
 							<Image
 								height={300}
-								src="/images/development/sort.png"
+								src="images/development/sort.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -459,7 +459,7 @@ function Development(props) {
 							</Text>
 							<Image
 								height={300}
-								src="/images/development/song.png"
+								src="images/development/song.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
@@ -502,7 +502,7 @@ function Development(props) {
 							</Text>
 							<Image
 								height={300}
-								src="/images/development/playlist.png"
+								src="images/development/playlist.png"
 								css={{
 									border: "1px solid $accents5",
 									borderRadius: "10px",
