@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
 		<NextUIProvider theme={darkTheme}>
-			<BrowserRouter basename="/cs1300-final-portfolio">
+			<BrowserRouter basename="/cs1300-final-portfolio/">
 				<ScrollToTop />
 				<App />
 			</BrowserRouter>
