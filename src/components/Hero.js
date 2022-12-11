@@ -64,9 +64,14 @@ function Hero(props) {
 								"rgb(94, 162, 239) 25%, $blue600 100%",
 							pr: "$1",
 							lh: "$sm",
+							"&:hover": {
+								opacity: 0.75,
+							},
 						}}
 					>
-						@hungrypanda140
+						<a href="https://github.com/hungrypanda140">
+							@hungrypanda140
+						</a>
 					</Text>
 					<Text h1 css={{ d: "inline", lh: "$sm" }}>
 						, a frontend developer with a passion for creating
