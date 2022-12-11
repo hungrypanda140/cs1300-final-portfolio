@@ -307,7 +307,7 @@ function Personas(props) {
 				</Text>
 				<ul
 					style={{
-						listStyleType: "disclosure-closed",
+						listStyleType: "disc",
 						letterSpacing: "var(--nextui-letterSpacings-tighter)",
 					}}
 				>
@@ -357,7 +357,7 @@ function Personas(props) {
 				</Text>
 				<ul
 					style={{
-						listStyleType: "disclosure-closed",
+						listStyleType: "disc",
 						letterSpacing: "var(--nextui-letterSpacings-tighter)",
 					}}
 				>
